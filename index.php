@@ -50,7 +50,7 @@ if(isset($_POST['btn-login']))
 <td><button type="submit" name="btn-login">Přihlásit</button></td>
 </tr>
 <tr>
-<td><a href="register.php">Registrace zde</a></td>
+<td><a href="php/register.php">Registrace zde</a></td>
 <td><a href="http://www.md5online.org/"> MD5 Hash decrypter </a></td>
 </tr>
 </table>

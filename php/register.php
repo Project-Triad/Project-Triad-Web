@@ -52,7 +52,7 @@ if(isset($_POST['btn-signup']))
 <td><button type="submit" name="btn-signup">Registrace</button></td>
 </tr>
 <tr>
-<td><a href="index.php">Zpět na přihlášení</a></td>
+<td><a href="../index.php">Zpět na přihlášení</a></td>
 </tr>
 </table>
 </form>

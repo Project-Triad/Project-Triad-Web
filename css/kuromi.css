@@ -1,6 +1,9 @@
 /* Kuromi Color Style*/
 * {
-  color: #fac980;
+  color: #ddac63;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.05em;
 }
 #menu-bar {
   background: #8B8B8B;

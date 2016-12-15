@@ -28,35 +28,50 @@ if(isset($_POST['btn-login']))
 
 }
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE HTML>
+<html lang="cs-cz">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>index</title>
-<link rel="stylesheet" href="css/form.css" type="text/css" />
+<meta charset="utf-8" />
+<meta http-equiv="refresh" content="1" />
+<title>Project-Triad</title>
+<link id="pagestyle" rel="stylesheet" type="text/css" href="css/kuromi.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script>
+function swapStyleSheet(sheet){
+	document.getElementById('pagestyle').setAttribute('href', sheet);
+}
+</script>
 </head>
 <body>
-<center>
+	<header>
+ <ul id="menu-bar">
+ 	<li class="active"><a href="#">Home</a></li>
+ 	<li><a href="pages/bellideum.php">Bellideum</a>
+  	<ul>
+   		<li><a href="#">Bellideum Sub Menu</a></li>
+  	</ul>
+	 </li>
+ 	<li><a href="#">Services</a>
+<ul>
+  <li><a href="#">Services Sub Menu</a></li>
+</ul>
+  </li>
+ <li><a href="#">About</a></li>
+ <li><a href="#">Contact Us</a></li>
+</ul>
+</header>
+
+<article>
 <div id="login-form">
 <form method="post">
-<table align="center" width="30%" border="0">
-<tr>
-<td><input type="text" name="email" placeholder="Email" required /></td>
-</tr>
-<tr>
-<td><input type="password" name="pass" placeholder="Heslo" required /></td>
-</tr>
-<tr>
-<td><button type="submit" name="btn-login">Přihlásit</button></td>
-</tr>
-<tr>
-<td><a href="php/register.php">Registrace zde</a></td>
-<td><a href="http://www.md5online.org/"> MD5 Hash decrypter </a></td>
-</tr>
-</table>
+<input type="text" name="email" placeholder="Email" required /></td>
+<input type="password" name="pass" placeholder="Heslo" required /></td>
+<button type="submit" name="btn-login">Přihlásit</button></td>
+<a href="php/register.php">Registrace zde</a></td>
+<a href="http://www.md5online.org/"> MD5 Hash decrypter </a></td>
 </form>
 </div>
-</center>
+</article>
 
 </body>
 </html>

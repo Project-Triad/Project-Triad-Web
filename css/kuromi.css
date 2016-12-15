@@ -1,0 +1,38 @@
+/* Kuromi Color Style*/
+* {
+  color: #fac980;
+}
+#menu-bar {
+  background: #8B8B8B;
+  background: linear-gradient(top,  #7A0000,  #8C0000);
+  background: -ms-linear-gradient(top,  #7A0000,  #8C0000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#7A0000), to(#8C0000));
+  background: -moz-linear-gradient(top,  #7A0000,  #8C0000);
+}
+
+#menu-bar a {
+}
+
+#menu-bar .active a, #menu-bar li:hover > a {
+  background: #FF0F0F;
+  background: linear-gradient(top,  #EB0909,  #A12323);
+  background: -ms-linear-gradient(top,  #EB0909,  #A12323);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EB0909), to(#A12323));
+  background: -moz-linear-gradient(top,  #EB0909,  #A12323);
+}
+
+#menu-bar ul a:hover {
+  background: #0399D4;
+  background: linear-gradient(top,  #EB0909,  #A12323) !important;
+  background: -ms-linear-gradient(top,  #EB0909,  #A12323) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#EB0909), to(#A12323)) !important;
+  background: -moz-linear-gradient(top,  #EB0909,  #A12323) !important;
+}
+
+#menu-bar ul {
+  background: #DDDDDD;
+  background: linear-gradient(top,  #8C0000,  #7A0000);
+  background: -ms-linear-gradient(top,  #8C0000,  #7A0000);
+  background: -webkit-gradient(linear, left top, left bottom, from(#8C0000), to(#7A0000));
+  background: -moz-linear-gradient(top,  #8C0000,  #7A0000);
+}
